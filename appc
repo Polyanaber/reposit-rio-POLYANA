@@ -1,0 +1,1412 @@
+[20:21, 02/10/2025] ~Polly🧡🍃🦊: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartMind - Estudos para Todos</title>
+
+  <!-- Manifest do PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+    --primary-color: #13010d;
+    --primary-dark: #7a124e;
+    --text-dark: #d4d4d4;
+    --text-light: #cc0077;
+    --button-bg: rgb(85 61 74 / 20%);
+    --button-hover: rgb(91 22 75 / 40%);
+    --transition: all 0.3s 
+cubic-bezier(0.42, 0, 0.13, 1.19);
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+ …
+[20:35, 02/10/2025] ~Polly🧡🍃🦊: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartMind - Estudos para Todos</title>
+
+  <!-- Manifest do PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+    --primary-color: #13010d;
+    --primary-dark: #7a124e;
+    --text-dark: #d4d4d4;
+    --text-light: #cc0077;
+    --button-bg: rgb(85 61 74 / 20%);
+    --button-hover: rgb(91 22 75 / 40%);
+    --transition: all 0.3s cubic-bezier(0.42, 0, 0.13, 1.19);
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+  …
+[20:57, 02/10/2025] ~Polly🧡🍃🦊: !DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartMind - Estudos Inteligentes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #13010d;
+      --primary-dark: #7a124e;
+      --accent-color: #ff0077;
+      --text-dark: #d4d4d4;
+      --text-light: #ffffff;
+      --button-bg: rgba(85, 61, 74, 0.3);
+      --button-hover: rgba(91, 22, 75, 0.5);
+      --transition: all 0.3s cubic-bezier(0.42, 0, 0.13, 1.19);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: hi…
+[21:25, 02/10/2025] ~Polly🧡🍃🦊: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartMind - Estudos Inteligentes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #13010d;
+      --primary-dark: #7a124e;
+      --accent-color: #ff0077;
+      --text-dark: #d4d4d4;
+      --text-light: #ffffff;
+      --button-bg: rgba(85, 61, 74, 0.3);
+      --button-hover: rgba(91, 22, 75, 0.5);
+      --transition: all 0.3s cubic-bezier(0.42, 0, 0.13, 1.19);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: h…
+[18:27, 06/10/2025] ~Polly🧡🍃🦊: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartMind - Estudos Inteligentes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #130229;
+      --primary-dark: #6d0448;
+      --accent-color: #ff0077;
+      --text-dark: #d4d4d4;
+      --text-light: #ffffff;
+      --button-bg: rgba(85, 61, 74, 0.3);
+      --button-hover: rgba(91, 22, 75, 0.5);
+      --transition: all 0.3s cubic-bezier(0.42, 0, 0.13, 1.19);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: h…
+[19:45, 06/10/2025] ~Polly🧡🍃🦊: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartMind - Estudos Inteligentes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #130229;
+      --primary-dark: #6d0448;
+      --accent-color: #ff0077;
+      --text-dark: #d4d4d4;
+      --text-light: #ffffff;
+      --button-bg: rgba(85, 61, 74, 0.3);
+      --button-hover: rgba(91, 22, 75, 0.5);
+      --transition: all 0.3s cubic-bezier(0.42, 0, 0.13, 1.19);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(124deg, var(--primary-color), var(--primary-dark));
+      font-family: 'Poppins', Arial, sans-serif;
+      padding: 20px;
+      position: relative;
+      color: var(--text-dark);
+    }
+
+    /* Efeitos de background dinâmico */
+    .bg-effects {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .floating-element {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      animation: floatAround 20s infinite linear;
+    }
+
+    .floating-element:nth-child(1) {
+      width: 80px;
+      height: 80px;
+      top: 10%;
+      left: 10%;
+      animation-duration: 25s;
+    }
+
+    .floating-element:nth-child(2) {
+      width: 120px;
+      height: 120px;
+      top: 60%;
+      right: 10%;
+      animation-duration: 30s;
+      animation-direction: reverse;
+    }
+
+    .floating-element:nth-child(3) {
+      width: 60px;
+      height: 60px;
+      bottom: 20%;
+      left: 20%;
+      animation-duration: 20s;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      height: 100%;
+      max-height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    /* Cabeçalho */
+    .header {
+      width: 100%;
+      margin-top: 20px;
+      animation: fadeInDown 0.8s ease-out;
+    }
+
+    .title {
+      display: none;
+    }
+
+    .subtitle {
+      font-size: clamp(2.4rem, 9vw, 5rem);
+      color: var(--text-light);
+      line-height: -2;
+      font-weight: 1000;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      margin-bottom: 13px;
+      display: block;
+      transform: none;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      margin-top: 10px;
+      font-weight: 300;
+      opacity: 0.9;
+    }
+
+    /* Container do robô */
+    .robot-container {
+      margin: 20px 0;
+      animation: float 3s ease-in-out infinite;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .robot {
+      width: min(230px, 70vw);
+      max-width: 80%;
+      filter: 
+        drop-shadow(0 8px 25px rgba(0, 0, 0, 0.3))
+        drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .robot-glow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(240px, 75vw);
+      height: min(240px, 75vw);
+      background: radial-gradient(circle, rgba(203, 77, 155, 0.3) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: -1;
+      animation: pulseGlow 2s ease-in-out infinite alternate;
+    }
+
+    /* Loading pontinhos */
+    .loading-dots {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+    }
+
+    .dot:nth-child(1) { background: #560368; }
+    .dot:nth-child(2) { background: #9c0fb8; } 
+    .dot:nth-child(3) { background: #9c0fb8;} 
+    .dot:nth-child(4) { background: #9c0fb8; } 
+
+    .dot:nth-child(1) { animation-delay: 0s; }
+    .dot:nth-child(2) { animation-delay: 0.2s; }
+    .dot:nth-child(3) { animation-delay: 0.4s; }
+    .dot:nth-child(4) { animation-delay: 0.6s; }
+
+    @keyframes bounce {
+      0%, 80%, 100% {
+        transform: scale(0.8);
+        opacity: 0.6;
+      }
+      40% {
+        transform: scale(1.2);
+        opacity: 1;
+        background: #560368;
+      }
+    }
+
+    .swipe-indicator {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+      opacity: 0.7;
+      animation: pulse 2s infinite;
+    }
+
+    .swipe-text {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes floatAround {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(100px, 50px) rotate(90deg); }
+      50% { transform: translate(50px, 100px) rotate(180deg); }
+      75% { transform: translate(-50px, 50px) rotate(270deg); }
+      100% { transform: translate(0, 0) rotate(360deg); }
+    }
+
+    @keyframes pulseGlow {
+      from { opacity: 0.4; transform: translate(-50%, -50%) scale(0.9); }
+      to { opacity: 0.7; transform: translate(-50%, -50%) scale(1.1); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+
+    /* Estilos da página de login */
+    #login-page {
+      display: none;
+      width: 100%;
+      max-width: 400px;
+      height: 100%;
+      max-height: 800px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    .login-header {
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .login-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text-light);
+      margin-bottom: 10px;
+    }
+
+    .login-subtitle {
+      font-size: 1rem;
+      color: var(--text-dark);
+      font-weight: 300;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 300px;
+    }
+
+    .login-form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .form-label {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .form-input {
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      color: var(--text-light);
+      font-size: 1rem;
+      transition: var(--transition);
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--accent-color);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .login-button {
+      padding: 15px;
+      background: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-top: 10px;
+    }
+
+    .login-button:hover {
+      background: #e0006a;
+      transform: translateY(-2px);
+    }
+
+    .login-links {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .link {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+
+    .register-section {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .register-text {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      margin-bottom: 10px;
+    }
+
+    .register-link {
+      color: var(--text-light);
+      font-weight: 500;
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .register-link:hover {
+      color: var(--accent-color);
+    }
+
+    .login-robot {
+      width: min(160px, 50vw) !important;
+      max-width: 60% !important;
+    }
+
+    .login-robot-glow {
+      width: min(180px, 55vw) !important;
+      height: min(180px, 55vw) !important;
+    }
+
+    /* Estilos da página de recuperação de senha */
+    #recovery-page {
+      display: none;
+      width: 100%;
+      max-width: 400px;
+      height: 100%;
+      max-height: 800px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    .recovery-header {
+      width: 100%;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .recovery-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text-light);
+      margin-bottom: 15px;
+    }
+
+    .recovery-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      font-weight: 300;
+      line-height: 1.5;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .recovery-form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .recovery-button {
+      padding: 15px;
+      background: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-top: 10px;
+    }
+
+    .recovery-button:hover {
+      background: #e0006a;
+      transform: translateY(-2px);
+    }
+
+    .back-link {
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .back-link:hover {
+      color: var(--accent-color);
+    }
+
+    .success-message {
+      display: none;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid #00ff88;
+      margin-top: 20px;
+      text-align: center;
+      animation: fadeInDown 0.5s ease-out;
+    }
+
+    .success-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #00ff88;
+    }
+
+    .recovery-robot {
+      width: min(140px, 45vw) !important;
+      max-width: 55% !important;
+    }
+
+    .recovery-robot-glow {
+      width: min(160px, 50vw) !important;
+      height: min(160px, 50vw) !important;
+      background: radial-gradient(circle, rgba(0, 255, 136, 0.3) 0%, transparent 70%);
+    }
+
+    /* Estilos para o botão de idioma */
+    .language-selector {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .language-button {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 8px 12px;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .language-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: scale(1.05);
+    }
+
+    .language-dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      margin-top: 5px;
+      background: rgba(19, 2, 41, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      padding: 10px;
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      min-width: 120px;
+      backdrop-filter: blur(10px);
+    }
+
+    .language-option {
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 0.8rem;
+      color: var(--text-light);
+    }
+
+    .language-option:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .language-option.active {
+      background: var(--accent-color);
+      color: white;
+    }
+
+    /* NOVO: Estilos da página de registro */
+    #register-page {
+      display: none;
+      width: 100%;
+      max-width: 400px;
+      height: 100%;
+      max-height: 800px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+      overflow-y: auto;
+    }
+
+    .register-header {
+      width: 100%;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .register-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text-light);
+      margin-bottom: 15px;
+    }
+
+    .register-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      font-weight: 300;
+      line-height: 1.5;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .register-form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .register-button {
+      padding: 15px;
+      background: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-top: 10px;
+    }
+
+    .register-button:hover {
+      background: #e0006a;
+      transform: translateY(-2px);
+    }
+
+    .terms-section {
+      margin-top: 15px;
+      text-align: left;
+    }
+
+    .terms-checkbox {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .terms-text {
+      font-size: 0.8rem;
+      color: var(--text-dark);
+      line-height: 1.4;
+    }
+
+    .terms-link {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    .terms-link:hover {
+      text-decoration: underline;
+    }
+
+    .register-robot {
+      width: min(140px, 45vw) !important;
+      max-width: 55% !important;
+    }
+
+    .register-robot-glow {
+      width: min(160px, 50vw) !important;
+      height: min(160px, 50vw) !important;
+      background: radial-gradient(circle, rgba(0, 200, 255, 0.3) 0%, transparent 70%);
+    }
+  </style>
+</head>
+<body>
+  <!-- Página inicial -->
+  <div class="container" id="welcome-page">
+    <div class="bg-effects">
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+    </div>
+
+    <!-- Botão de idioma -->
+    <div class="language-selector">
+      <button class="language-button" onclick="toggleLanguageDropdown('welcome')">
+        🌐 <span id="current-language-welcome">PT</span> ▼
+      </button>
+      <div class="language-dropdown" id="languageDropdown-welcome">
+        <div class="language-option active" onclick="changeLanguage('pt')">Português</div>
+        <div class="language-option" onclick="changeLanguage('en')">English</div>
+        <div class="language-option" onclick="changeLanguage('fr')">Français</div>
+        <div class="language-option" onclick="changeLanguage('ko')">한국어</div>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1 class="title">Bem-Vindo</h1>
+      <p class="subtitle">SmartMind!</p>
+    </div>
+
+    <div class="robot-container">
+      <div class="robot-glow"></div>
+      <img src="c:\Users\alexb\Downloads\robozinho07 (1).png" alt="Robô inteligente representando a SmartMind" class="robot">
+    </div>
+
+    <div class="swipe-indicator">
+      <div class="swipe-text" id="welcome-text">Aprenda de forma inteligente e divertida com o SmartMind!</div>
+    </div>
+
+    <div class="loading-dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
+  <!-- Página de login -->
+  <div id="login-page">
+    <div class="bg-effects">
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+    </div>
+
+    <!-- Botão de idioma na página de login -->
+    <div class="language-selector">
+      <button class="language-button" onclick="toggleLanguageDropdown('login')">
+        🌐 <span id="current-language-login">PT</span> ▼
+      </button>
+      <div class="language-dropdown" id="languageDropdown-login">
+        <div class="language-option active" onclick="changeLanguage('pt')">Português</div>
+        <div class="language-option" onclick="changeLanguage('en')">English</div>
+        <div class="language-option" onclick="changeLanguage('fr')">Français</div>
+        <div class="language-option" onclick="changeLanguage('ko')">한국어</div>
+      </div>
+    </div>
+
+    <!-- Robô adicionado na página de login (menor) -->
+    <div class="robot-container">
+      <div class="robot-glow login-robot-glow"></div>
+      <img src="c:\Users\alexb\Downloads\robozinho07 (1).png" alt="Robô inteligente representando a SmartMind" class="robot login-robot">
+    </div>
+
+    <div class="login-header">
+      <h1 class="login-title" id="login-title">EDUCATION</h1>
+      <p class="login-subtitle" id="login-subtitle">Welcome back — your next achievement awaits.</p>
+    </div>
+
+    <form class="login-form">
+      <div class="form-group">
+        <label class="form-label" for="username" id="username-label">Username</label>
+        <input type="text" id="username" class="form-input" placeholder="Enter your username" id="username-placeholder">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="password" id="password-label">Password</label>
+        <input type="password" id="password" class="form-input" placeholder="Enter your password" id="password-placeholder">
+      </div>
+
+      <button type="submit" class="login-button" id="login-button">Sign In</button>
+
+      <div class="login-links">
+        <a class="link" onclick="showRecoveryPage()" id="recovery-link">Recovery Password</a>
+      </div>
+    </form>
+
+    <div class="register-section">
+      <p class="register-text" id="register-text">Not a member?</p>
+      <a class="register-link" onclick="showRegisterPage()" id="register-link">Register Now</a>
+    </div>
+  </div>
+
+  <!-- Página de recuperação de senha -->
+  <div id="recovery-page">
+    <div class="bg-effects">
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+    </div>
+
+    <!-- Botão de idioma na página de recuperação -->
+    <div class="language-selector">
+      <button class="language-button" onclick="toggleLanguageDropdown('recovery')">
+        🌐 <span id="current-language-recovery">PT</span> ▼
+      </button>
+      <div class="language-dropdown" id="languageDropdown-recovery">
+        <div class="language-option active" onclick="changeLanguage('pt')">Português</div>
+        <div class="language-option" onclick="changeLanguage('en')">English</div>
+        <div class="language-option" onclick="changeLanguage('fr')">Français</div>
+        <div class="language-option" onclick="changeLanguage('ko')">한국어</div>
+      </div>
+    </div>
+
+    <!-- Robô na página de recuperação -->
+    <div class="robot-container">
+      <div class="robot-glow recovery-robot-glow"></div>
+      <img src="c:\Users\alexb\Downloads\robozinho07 (1).png" alt="Robô inteligente representando a SmartMind" class="robot recovery-robot">
+    </div>
+
+    <div class="recovery-header">
+      <h1 class="recovery-title" id="recovery-title">Reset Password</h1>
+      <p class="recovery-subtitle" id="recovery-subtitle">Enter your email address and we'll send you instructions to reset your password.</p>
+    </div>
+
+    <form class="recovery-form" id="recoveryForm">
+      <div class="form-group">
+        <label class="form-label" for="recovery-email" id="email-label">Email Address</label>
+        <input type="email" id="recovery-email" class="form-input" placeholder="Enter your email" required id="email-placeholder">
+      </div>
+
+      <button type="submit" class="recovery-button" id="recovery-button">Send Reset Instructions</button>
+    </form>
+
+    <div class="success-message" id="successMessage">
+      <div class="success-icon">✓</div>
+      <h3 style="color: var(--text-light); margin-bottom: 10px;" id="success-title">Check Your Email!</h3>
+      <p id="success-message-text">We've sent password reset instructions to your email address.</p>
+    </div>
+
+    <a class="back-link" onclick="showLoginPage()" id="back-link">
+       Back to Sign In
+    </a>
+  </div>
+
+  <!-- NOVA: Página de registro -->
+  <div id="register-page">
+    <div class="bg-effects">
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+    </div>
+
+    <!-- Botão de idioma na página de registro -->
+    <div class="language-selector">
+      <button class="language-button" onclick="toggleLanguageDropdown('register')">
+        🌐 <span id="current-language-register">PT</span> ▼
+      </button>
+      <div class="language-dropdown" id="languageDropdown-register">
+        <div class="language-option active" onclick="changeLanguage('pt')">Português</div>
+        <div class="language-option" onclick="changeLanguage('en')">English</div>
+        <div class="language-option" onclick="changeLanguage('fr')">Français</div>
+        <div class="language-option" onclick="changeLanguage('ko')">한국어</div>
+      </div>
+    </div>
+
+    <!-- Robô na página de registro -->
+    <div class="robot-container">
+      <div class="robot-glow register-robot-glow"></div>
+      <img src="c:\Users\alexb\Downloads\robozinho07 (1).png" alt="Robô inteligente representando a SmartMind" class="robot register-robot">
+    </div>
+
+    <div class="register-header">
+      <h1 class="register-title" id="register-title">Create Account</h1>
+      <p class="register-subtitle" id="register-subtitle">Join SmartMind and start your learning journey today!</p>
+    </div>
+
+    <form class="register-form" id="registerForm">
+      <div class="form-group">
+        <label class="form-label" for="full-name" id="fullname-label">Full Name</label>
+        <input type="text" id="full-name" class="form-input" placeholder="Enter your full name" required id="fullname-placeholder">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="register-email" id="register-email-label">Email Address</label>
+        <input type="email" id="register-email" class="form-input" placeholder="Enter your email" required id="register-email-placeholder">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="register-username" id="register-username-label">Username</label>
+        <input type="text" id="register-username" class="form-input" placeholder="Choose a username" required id="register-username-placeholder">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="register-password" id="register-password-label">Password</label>
+        <input type="password" id="register-password" class="form-input" placeholder="Create a password" required id="register-password-placeholder">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="confirm-password" id="confirm-password-label">Confirm Password</label>
+        <input type="password" id="confirm-password" class="form-input" placeholder="Confirm your password" required id="confirm-password-placeholder">
+      </div>
+
+      <div class="terms-section">
+        <div class="terms-checkbox">
+          <input type="checkbox" id="terms" required>
+          <label for="terms" class="terms-text" id="terms-text">
+            I agree to the <a href="#" class="terms-link" id="terms-link">Terms of Service</a> and <a href="#" class="terms-link" id="privacy-link">Privacy Policy</a>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="register-button" id="register-submit-button">Create Account</button>
+    </form>
+
+    <div class="success-message" id="register-success-message">
+      <div class="success-icon">✓</div>
+      <h3 style="color: var(--text-light); margin-bottom: 10px;" id="register-success-title">Account Created!</h3>
+      <p id="register-success-message">Welcome to SmartMind! Your account has been successfully created.</p>
+    </div>
+
+    <a class="back-link" onclick="showLoginPage()" id="register-back-link">
+       Back to Sign In
+    </a>
+  </div>
+
+  <script>
+    // Sistema de idiomas
+    let currentLanguage = 'pt';
+
+    const translations = {
+      pt: {
+        welcome: 'Aprenda de forma inteligente e divertida com o SmartMind!',
+        loginTitle: 'EDUCAÇÃO',
+        loginSubtitle: 'Bem-vindo de volta — sua próxima conquista aguarda.',
+        usernameLabel: 'Nome de usuário',
+        usernamePlaceholder: 'Digite seu nome de usuário',
+        passwordLabel: 'Senha',
+        passwordPlaceholder: 'Digite sua senha',
+        loginButton: 'Entrar',
+        recoveryLink: 'Recuperar Senha',
+        registerText: 'Não é membro?',
+        registerLink: 'Cadastre-se Agora',
+        recoveryTitle: 'Redefinir Senha',
+        recoverySubtitle: 'Digite seu endereço de email e enviaremos instruções para redefinir sua senha.',
+        emailLabel: 'Endereço de Email',
+        emailPlaceholder: 'Digite seu email',
+        recoveryButton: 'Enviar Instruções',
+        successTitle: 'Verifique seu Email!',
+        successMessage: 'Enviamos instruções para redefinir sua senha para o seu endereço de email.',
+        backLink: 'Voltar para Entrar',
+        // NOVO: Traduções para registro
+        registerTitle: 'Criar Conta',
+        registerSubtitle: 'Junte-se ao SmartMind e comece sua jornada de aprendizado hoje!',
+        fullnameLabel: 'Nome Completo',
+        fullnamePlaceholder: 'Digite seu nome completo',
+        registerEmailLabel: 'Endereço de Email',
+        registerEmailPlaceholder: 'Digite seu email',
+        registerUsernameLabel: 'Nome de Usuário',
+        registerUsernamePlaceholder: 'Escolha um nome de usuário',
+        registerPasswordLabel: 'Senha',
+        registerPasswordPlaceholder: 'Crie uma senha',
+        confirmPasswordLabel: 'Confirmar Senha',
+        confirmPasswordPlaceholder: 'Confirme sua senha',
+        termsText: 'Concordo com os <a href="#" class="terms-link">Termos de Serviço</a> e <a href="#" class="terms-link">Política de Privacidade</a>',
+        registerSubmitButton: 'Criar Conta',
+        registerSuccessTitle: 'Conta Criada!',
+        registerSuccessMessage: 'Bem-vindo ao SmartMind! Sua conta foi criada com sucesso.'
+      },
+      en: {
+        welcome: 'Learn in a smart and fun way with SmartMind!',
+        loginTitle: 'EDUCATION',
+        loginSubtitle: 'Welcome back — your next achievement awaits.',
+        usernameLabel: 'Username',
+        usernamePlaceholder: 'Enter your username',
+        passwordLabel: 'Password',
+        passwordPlaceholder: 'Enter your password',
+        loginButton: 'Sign In',
+        recoveryLink: 'Recovery Password',
+        registerText: 'Not a member?',
+        registerLink: 'Register Now',
+        recoveryTitle: 'Reset Password',
+        recoverySubtitle: 'Enter your email address and we\'ll send you instructions to reset your password.',
+        emailLabel: 'Email Address',
+        emailPlaceholder: 'Enter your email',
+        recoveryButton: 'Send Reset Instructions',
+        successTitle: 'Check Your Email!',
+        successMessage: 'We\'ve sent password reset instructions to your email address.',
+        backLink: 'Back to Sign In',
+        // NOVO: Traduções para registro
+        registerTitle: 'Create Account',
+        registerSubtitle: 'Join SmartMind and start your learning journey today!',
+        fullnameLabel: 'Full Name',
+        fullnamePlaceholder: 'Enter your full name',
+        registerEmailLabel: 'Email Address',
+        registerEmailPlaceholder: 'Enter your email',
+        registerUsernameLabel: 'Username',
+        registerUsernamePlaceholder: 'Choose a username',
+        registerPasswordLabel: 'Password',
+        registerPasswordPlaceholder: 'Create a password',
+        confirmPasswordLabel: 'Confirm Password',
+        confirmPasswordPlaceholder: 'Confirm your password',
+        termsText: 'I agree to the <a href="#" class="terms-link">Terms of Service</a> and <a href="#" class="terms-link">Privacy Policy</a>',
+        registerSubmitButton: 'Create Account',
+        registerSuccessTitle: 'Account Created!',
+        registerSuccessMessage: 'Welcome to SmartMind! Your account has been successfully created.'
+      },
+      fr: {
+        welcome: 'Apprenez de manière intelligente et amusante avec SmartMind!',
+        loginTitle: 'ÉDUCATION',
+        loginSubtitle: 'Bon retour — votre prochain succès vous attend.',
+        usernameLabel: 'Nom d\'utilisateur',
+        usernamePlaceholder: 'Entrez votre nom d\'utilisateur',
+        passwordLabel: 'Mot de passe',
+        passwordPlaceholder: 'Entrez votre mot de passe',
+        loginButton: 'Se Connecter',
+        recoveryLink: 'Récupérer Mot de Passe',
+        registerText: 'Pas membre?',
+        registerLink: 'S\'inscrire Maintenant',
+        recoveryTitle: 'Réinitialiser le Mot de Passe',
+        recoverySubtitle: 'Entrez votre adresse email et nous vous enverrons des instructions pour réinitialiser votre mot de passe.',
+        emailLabel: 'Adresse Email',
+        emailPlaceholder: 'Entrez votre email',
+        recoveryButton: 'Envoyer les Instructions',
+        successTitle: 'Vérifiez votre Email!',
+        successMessage: 'Nous avons envoyé des instructions de réinitialisation de mot de passe à votre adresse email.',
+        backLink: 'Retour à la Connexion',
+        // NOVO: Traduções para registro
+        registerTitle: 'Créer un Compte',
+        registerSubtitle: 'Rejoignez SmartMind et commencez votre parcours d\'apprentissage dès aujourd\'hui!',
+        fullnameLabel: 'Nom Complet',
+        fullnamePlaceholder: 'Entrez votre nom complet',
+        registerEmailLabel: 'Adresse Email',
+        registerEmailPlaceholder: 'Entrez votre email',
+        registerUsernameLabel: 'Nom d\'Utilisateur',
+        registerUsernamePlaceholder: 'Choisissez un nom d\'utilisateur',
+        registerPasswordLabel: 'Mot de Passe',
+        registerPasswordPlaceholder: 'Créez un mot de passe',
+        confirmPasswordLabel: 'Confirmer le Mot de Passe',
+        confirmPasswordPlaceholder: 'Confirmez votre mot de passe',
+        termsText: 'J\'accepte les <a href="#" class="terms-link">Conditions d\'Utilisation</a> et la <a href="#" class="terms-link">Politique de Confidentialité</a>',
+        registerSubmitButton: 'Créer un Compte',
+        registerSuccessTitle: 'Compte Créé!',
+        registerSuccessMessage: 'Bienvenue sur SmartMind! Votre compte a été créé avec succès.'
+      },
+      ko: {
+        welcome: 'SmartMind와 함께 스마트하고 재미있는 방식으로 배우세요!',
+        loginTitle: '교육',
+        loginSubtitle: '다시 오신 것을 환영합니다 — 다음 성취가 기다리고 있습니다.',
+        usernameLabel: '사용자 이름',
+        usernamePlaceholder: '사용자 이름을 입력하세요',
+        passwordLabel: '비밀번호',
+        passwordPlaceholder: '비밀번호를 입력하세요',
+        loginButton: '로그인',
+        recoveryLink: '비밀번호 복구',
+        registerText: '회원이 아니신가요?',
+        registerLink: '지금 등록하기',
+        recoveryTitle: '비밀번호 재설정',
+        recoverySubtitle: '이메일 주소를 입력하면 비밀번호 재설정 지침을 보내드립니다.',
+        emailLabel: '이메일 주소',
+        emailPlaceholder: '이메일을 입력하세요',
+        recoveryButton: '재설정 지침 보내기',
+        successTitle: '이메일을 확인하세요!',
+        successMessage: '비밀번호 재설정 지침을 귀하의 이메일 주소로 보냈습니다.',
+        backLink: '로그인으로 돌아가기',
+        // NOVO: Traduções para registro
+        registerTitle: '계정 생성',
+        registerSubtitle: 'SmartMind에 가입하고 오늘부터 학습 여정을 시작하세요!',
+        fullnameLabel: '전체 이름',
+        fullnamePlaceholder: '전체 이름을 입력하세요',
+        registerEmailLabel: '이메일 주소',
+        registerEmailPlaceholder: '이메일을 입력하세요',
+        registerUsernameLabel: '사용자 이름',
+        registerUsernamePlaceholder: '사용자 이름을 선택하세요',
+        registerPasswordLabel: '비밀번호',
+        registerPasswordPlaceholder: '비밀번호를 생성하세요',
+        confirmPasswordLabel: '비밀번호 확인',
+        confirmPasswordPlaceholder: '비밀번호를 확인하세요',
+        termsText: '<a href="#" class="terms-link">이용약관</a> 및 <a href="#" class="terms-link">개인정보 처리방침</a>에 동의합니다',
+        registerSubmitButton: '계정 생성',
+        registerSuccessTitle: '계정 생성 완료!',
+        registerSuccessMessage: 'SmartMind에 오신 것을 환영합니다! 계정이 성공적으로 생성되었습니다.'
+      }
+    };
+
+    // Função para alternar dropdown de idioma
+    function toggleLanguageDropdown(page) {
+      const dropdown = document.getElementById(languageDropdown-${page});
+      const allDropdowns = document.querySelectorAll('.language-dropdown');
+      
+      allDropdowns.forEach(dd => {
+        if (dd !== dropdown) {
+          dd.style.display = 'none';
+        }
+      });
+      
+      dropdown.style.display = dropdown.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+    // Função para mudar idioma
+    function changeLanguage(lang) {
+      currentLanguage = lang;
+      const t = translations[lang];
+      
+      // Atualiza todos os textos
+      if (document.getElementById('welcome-text')) {
+        document.getElementById('welcome-text').textContent = t.welcome;
+      }
+      if (document.getElementById('login-title')) {
+        document.getElementById('login-title').textContent = t.loginTitle;
+      }
+      if (document.getElementById('login-subtitle')) {
+        document.getElementById('login-subtitle').textContent = t.loginSubtitle;
+      }
+      if (document.getElementById('username-label')) {
+        document.getElementById('username-label').textContent = t.usernameLabel;
+      }
+      if (document.getElementById('username-placeholder')) {
+        document.getElementById('username-placeholder').placeholder = t.usernamePlaceholder;
+      }
+      if (document.getElementById('password-label')) {
+        document.getElementById('password-label').textContent = t.passwordLabel;
+      }
+      if (document.getElementById('password-placeholder')) {
+        document.getElementById('password-placeholder').placeholder = t.passwordPlaceholder;
+      }
+      if (document.getElementById('login-button')) {
+        document.getElementById('login-button').textContent = t.loginButton;
+      }
+      if (document.getElementById('recovery-link')) {
+        document.getElementById('recovery-link').textContent = t.recoveryLink;
+      }
+      if (document.getElementById('register-text')) {
+        document.getElementById('register-text').textContent = t.registerText;
+      }
+      if (document.getElementById('register-link')) {
+        document.getElementById('register-link').textContent = t.registerLink;
+      }
+      if (document.getElementById('recovery-title')) {
+        document.getElementById('recovery-title').textContent = t.recoveryTitle;
+      }
+      if (document.getElementById('recovery-subtitle')) {
+        document.getElementById('recovery-subtitle').textContent = t.recoverySubtitle;
+      }
+      if (document.getElementById('email-label')) {
+        document.getElementById('email-label').textContent = t.emailLabel;
+      }
+      if (document.getElementById('email-placeholder')) {
+        document.getElementById('email-placeholder').placeholder = t.emailPlaceholder;
+      }
+      if (document.getElementById('recovery-button')) {
+        document.getElementById('recovery-button').textContent = t.recoveryButton;
+      }
+      if (document.getElementById('success-title')) {
+        document.getElementById('success-title').textContent = t.successTitle;
+      }
+      if (document.getElementById('success-message-text')) {
+        document.getElementById('success-message-text').textContent = t.successMessage;
+      }
+      if (document.getElementById('back-link')) {
+        document.getElementById('back-link').textContent = t.backLink;
+      }
+      
+      // NOVO: Atualiza textos da página de registro
+      if (document.getElementById('register-title')) {
+        document.getElementById('register-title').textContent = t.registerTitle;
+      }
+      if (document.getElementById('register-subtitle')) {
+        document.getElementById('register-subtitle').textContent = t.registerSubtitle;
+      }
+      if (document.getElementById('fullname-label')) {
+        document.getElementById('fullname-label').textContent = t.fullnameLabel;
+      }
+      if (document.getElementById('fullname-placeholder')) {
+        document.getElementById('fullname-placeholder').placeholder = t.fullnamePlaceholder;
+      }
+      if (document.getElementById('register-email-label')) {
+        document.getElementById('register-email-label').textContent = t.registerEmailLabel;
+      }
+      if (document.getElementById('register-email-placeholder')) {
+        document.getElementById('register-email-placeholder').placeholder = t.registerEmailPlaceholder;
+      }
+      if (document.getElementById('register-username-label')) {
+        document.getElementById('register-username-label').textContent = t.registerUsernameLabel;
+      }
+      if (document.getElementById('register-username-placeholder')) {
+        document.getElementById('register-username-placeholder').placeholder = t.registerUsernamePlaceholder;
+      }
+      if (document.getElementById('register-password-label')) {
+        document.getElementById('register-password-label').textContent = t.registerPasswordLabel;
+      }
+      if (document.getElementById('register-password-placeholder')) {
+        document.getElementById('register-password-placeholder').placeholder = t.registerPasswordPlaceholder;
+      }
+      if (document.getElementById('confirm-password-label')) {
+        document.getElementById('confirm-password-label').textContent = t.confirmPasswordLabel;
+      }
+      if (document.getElementById('confirm-password-placeholder')) {
+        document.getElementById('confirm-password-placeholder').placeholder = t.confirmPasswordPlaceholder;
+      }
+      if (document.getElementById('terms-text')) {
+        document.getElementById('terms-text').innerHTML = t.termsText;
+      }
+      if (document.getElementById('register-submit-button')) {
+        document.getElementById('register-submit-button').textContent = t.registerSubmitButton;
+      }
+      if (document.getElementById('register-success-title')) {
+        document.getElementById('register-success-title').textContent = t.registerSuccessTitle;
+      }
+      if (document.getElementById('register-success-message')) {
+        document.getElementById('register-success-message').textContent = t.registerSuccessMessage;
+      }
+      if (document.getElementById('register-back-link')) {
+        document.getElementById('register-back-link').textContent = t.backLink;
+      }
+      
+      // Atualiza os indicadores de idioma
+      document.querySelectorAll('[id^="current-language-"]').forEach(el => {
+        el.textContent = lang.toUpperCase();
+      });
+      
+      // Atualiza as opções ativas
+      document.querySelectorAll('.language-option').forEach(option => {
+        option.classList.remove('active');
+      });
+      event.target.classList.add('active');
+      
+      // Fecha todos os dropdowns
+      document.querySelectorAll('.language-dropdown').forEach(dropdown => {
+        dropdown.style.display = 'none';
+      });
+    }
+
+    // Fecha dropdowns ao clicar fora
+    document.addEventListener('click', function(event) {
+      if (!event.target.closest('.language-selector')) {
+        document.querySelectorAll('.language-dropdown').forEach(dropdown => {
+          dropdown.style.display = 'none';
+        });
+      }
+    });
+
+    // Redirecionamento automático
+    setTimeout(function() {
+      document.getElementById('welcome-page').style.display = 'none';
+      document.getElementById('login-page').style.display = 'flex';
+    }, 10000);
+
+    // Funções para navegação entre páginas
+    function showRecoveryPage() {
+      document.getElementById('login-page').style.display = 'none';
+      document.getElementById('recovery-page').style.display = 'flex';
+    }
+
+    function showLoginPage() {
+      document.getElementById('recovery-page').style.display = 'none';
+      document.getElementById('register-page').style.display = 'none';
+      document.getElementById('login-page').style.display = 'flex';
+      document.getElementById('recoveryForm').reset();
+      document.getElementById('successMessage').style.display = 'none';
+      document.getElementById('registerForm').reset();
+      document.getElementById('register-success-message').style.display = 'none';
+    }
+
+    // NOVA: Função para mostrar página de registro
+    function showRegisterPage() {
+      document.getElementById('login-page').style.display = 'none';
+      document.getElementById('register-page').style.display = 'flex';
+    }
+
+    // Manipulação do formulário de recuperação
+    document.getElementById('recoveryForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('successMessage').style.display = 'block';
+      document.getElementById('recoveryForm').style.display = 'none';
+      
+      setTimeout(function() {
+        showLoginPage();
+      }, 4000);
+    });
+
+    // NOVA: Manipulação do formulário de registro
+    document.getElementById('registerForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Validação básica
+      const password = document.getElementById('register-password').value;
+      const confirmPassword = document.getElementById('confirm-password').value;
+      
+      if (password !== confirmPassword) {
+        alert('Passwords do not match!');
+        return;
+      }
+      
+      // Simula o registro bem-sucedido
+      document.getElementById('register-success-message').style.display = 'block';
+      document.getElementById('registerForm').style.display = 'none';
+      
+      setTimeout(function() {
+        showLoginPage();
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
