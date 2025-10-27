@@ -1,3 +1,45 @@
+<?php
+// Mostrar erros (apenas para debug — remova em produção)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Garante que o método seja POST
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    echo "Erro: formulário não enviado via POST.";
+    exit;
+}
+
+// Usar filter_input para evitar undefined index
+$nome  = trim(filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING)) ?: '—';
+$idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT);
+$turma = trim(filter_input(INPUT_POST, 'turma', FILTER_SANITIZE_STRING));
+$nota1 = filter_input(INPUT_POST, 'nota1', FILTER_VALIDATE_FLOAT);
+$nota2 = filter_input(INPUT_POST, 'nota2', FILTER_VALIDATE_FLOAT);
+
+// Validações básicas
+$erros = [];
+if ($idade === false || $idade === null) $erros[] = "Idade inválida.";
+if ($nota1 === false || $nota1 === null) $erros[] = "Nota 1 inválida.";
+if ($nota2 === false || $nota2 === null) $erros[] = "Nota 2 inválida.";
+
+if (!empty($erros)) {
+    echo "<h3>Erros:</h3>";
+    echo "<ul>";
+    foreach ($erros as $e) echo "<li>" . htmlspecialchars($e) . "</li>";
+    echo "</ul>";
+    echo "<a href='cadastro.php'>Voltar</a>";
+    exit;
+}
+
+// Calcula média
+$media = ($nota1 + $nota2) / 2;
+$situacao = ($media >= 6) ? "Aprovado ✅" : "Reprovado ❌";
+
+// Recebe GET de forma segura
+$campanha = filter_input(INPUT_GET, 'campanha', FILTER_SANITIZE_STRING) ?: '—';
+$versao   = filter_input(INPUT_GET, 'versao', FILTER_SANITIZE_STRING) ?: '—';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,41 +48,18 @@
 </head>
 <body>
     <h2>Informações do Aluno</h2>
+    <p><strong>Nome:</strong> <?= htmlspecialchars($nome) ?></p>
+    <p><strong>Idade:</strong> <?= htmlspecialchars($idade) ?></p>
+    <p><strong>Turma:</strong> <?= htmlspecialchars($turma) ?></p>
+    <p><strong>Nota 1:</strong> <?= htmlspecialchars($nota1) ?></p>
+    <p><strong>Nota 2:</strong> <?= htmlspecialchars($nota2) ?></p>
+    <p><strong>Média:</strong> <?= number_format($media, 2, ',', '.') ?></p>
+    <p><strong>Situação:</strong> <?= $situacao ?></p>
 
-    <?php
-    // Recebendo dados do formulário (POST)
-    $nome = $_POST['nome'];
-    $idade = $_POST['idade'];
-    $turma = $_POST['turma'];
-    $nota1 = $_POST['nota1'];
-    $nota2 = $_POST['nota2'];
+    <h3>Informações adicionais (GET)</h3>
+    <p>Campanha: <?= htmlspecialchars($campanha) ?></p>
+    <p>Versão: <?= htmlspecialchars($versao) ?></p>
 
-    // Calculando média
-    $media = ($nota1 + $nota2) / 2;
-
-    // Verificando aprovação
-    if ($media >= 6) {
-        $situacao = "Aprovado ✅";
-    } else {
-        $situacao = "Reprovado ❌";
-    }
-
-    // Exibindo os dados
-    echo "<strong>Nome:</strong> $nome<br>";
-    echo "<strong>Idade:</strong> $idade<br>";
-    echo "<strong>Turma:</strong> $turma<br>";
-    echo "<strong>Nota 1:</strong> $nota1<br>";
-    echo "<strong>Nota 2:</strong> $nota2<br>";
-    echo "<strong>Média:</strong> $media<br>";
-    echo "<strong>Situação:</strong> $situacao<br><br>";
-
-    // Recebendo e exibindo informações via GET
-    $campanha = $_GET['campanha'];
-    $versao = $_GET['versao'];
-
-    echo "<h3>Informações adicionais (GET):</h3>";
-    echo "Campanha: $campanha<br>";
-    echo "Versão: $versao<br>";
-    ?>
+    <p><a href="cadastro.php">Voltar</a></p>
 </body>
 </html>
