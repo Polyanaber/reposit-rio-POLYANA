@@ -2,20 +2,28 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Cadastro Escola Online</title>
+    <title>Cadastro Proz👨🏿‍🎓</title>
     <style>
         body {
             font-family: "Inter", Arial, sans-serif;
             background-color: #f8fafc;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            padding: 40px;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
         }
 
         h1 {
             font-size: 2rem;
             color: #1e293b;
+            text-align: center;
             margin-bottom: 30px;
         }
 
@@ -24,14 +32,14 @@
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            width: 100%;
-            max-width: 420px;
+            margin-bottom: 20px;
         }
 
         h2 {
             font-size: 1.3rem;
             color: #1e293b;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         label {
@@ -55,7 +63,7 @@
             width: 100%;
             margin-top: 20px;
             padding: 12px;
-            background-color: #2563eb;
+            background-color: #474048ff;
             color: #fff;
             border: none;
             border-radius: 8px;
@@ -65,118 +73,133 @@
         }
 
         button:hover {
-            background-color: #1d4ed8;
+            background-color: #a3a4a8ff;
+        }
+
+        .btn-sair {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3c3d3dff;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .btn-sair:hover {
+            background-color: #3d434fff;
         }
 
         hr {
             margin: 30px 0;
         }
 
-        p {
-            color: #334155;
+        p, ul {
+            color: #101112ff;
         }
 
         ul {
             color: #b91c1c;
         }
-
-        a {
-            color: #2563eb;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
 
-<h1>Cadastro Escola Online</h1>
+<div class="container">
+    <h1>Cadastro Proz👨🏿‍🎓</h1>
 
-<?php
-// Mostrar erros (apenas para debug — remova em produção)
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+    <?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
 
-// Inicializa variáveis
-$nome = $idade = $turma = $nota1 = $nota2 = $media = $situacao = "";
-$campanha = $versao = "—";
+    $nome = $idade = $turma = $nota1 = $nota2 = $media = $situacao = "";
+    $campanha = $versao = $escola = $ano_letivo = $turno = $professor = $modo = "—";
 
-// Verifica se o formulário foi enviado
-$foiEnviado = ($_SERVER['REQUEST_METHOD'] === 'POST');
+    $foiEnviado = ($_SERVER['REQUEST_METHOD'] === 'POST');
 
-if ($foiEnviado) {
-    // Captura e sanitiza campos de texto
-    $nome  = htmlspecialchars(trim($_POST['nome'] ?? '—'));
-    $turma = htmlspecialchars(trim($_POST['turma'] ?? '—'));
+    $campanha   = htmlspecialchars($_GET['campanha'] ?? '—');
+    $versao     = htmlspecialchars($_GET['versao'] ?? '—');
+    $escola     = htmlspecialchars($_GET['escola'] ?? '—');
+    $ano_letivo = htmlspecialchars($_GET['ano_letivo'] ?? '—');
+    $turno      = htmlspecialchars($_GET['turno'] ?? '—');
+    $professor  = htmlspecialchars($_GET['professor'] ?? '—');
+    $modo       = htmlspecialchars($_GET['modo'] ?? 'cadastro');
 
-    // Captura e valida números
-    $idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT);
-    $nota1 = filter_input(INPUT_POST, 'nota1', FILTER_VALIDATE_FLOAT);
-    $nota2 = filter_input(INPUT_POST, 'nota2', FILTER_VALIDATE_FLOAT);
+    if ($foiEnviado) {
+        $nome  = htmlspecialchars(trim($_POST['nome'] ?? '—'));
+        $turma = htmlspecialchars(trim($_POST['turma'] ?? '—'));
 
-    // Validações básicas
-    $erros = [];
-    if ($idade === false || $idade === null) $erros[] = "Idade inválida.";
-    if ($nota1 === false || $nota1 === null) $erros[] = "Nota 1 inválida.";
-    if ($nota2 === false || $nota2 === null) $erros[] = "Nota 2 inválida.";
+        $idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT);
+        $nota1 = filter_input(INPUT_POST, 'nota1', FILTER_VALIDATE_FLOAT);
+        $nota2 = filter_input(INPUT_POST, 'nota2', FILTER_VALIDATE_FLOAT);
 
-    // Recebe parâmetros GET (ex: ?campanha=voltaasaulas&versao=1.0)
-    $campanha = htmlspecialchars($_GET['campanha'] ?? '—');
-    $versao   = htmlspecialchars($_GET['versao'] ?? '—');
+        $erros = [];
+        if ($idade === false || $idade === null) $erros[] = "Idade inválida.";
+        if ($nota1 === false || $nota1 === null) $erros[] = "Nota 1 inválida.";
+        if ($nota2 === false || $nota2 === null) $erros[] = "Nota 2 inválida.";
 
-    // Se houver erros, exibe e encerra
-    if (!empty($erros)) {
-        echo "<div class='card'><h3>Erros encontrados:</h3><ul>";
-        foreach ($erros as $e) echo "<li>" . htmlspecialchars($e) . "</li>";
-        echo "</ul><p><a href='index.php'>Voltar</a></p></div>";
-        exit;
+        if (!empty($erros)) {
+            echo "<div class='card'><h3>Erros encontrados:</h3><ul>";
+            foreach ($erros as $e) echo "<li>" . htmlspecialchars($e) . "</li>";
+            echo "</ul><div style='text-align:center;'><a class='btn-sair' href='index.php'>Sair</a></div></div>";
+            exit;
+        }
+
+        $media = ($nota1 + $nota2) / 2;
+        $situacao = ($media >= 6) ? "Aprovado ✅" : "Reprovado ❌";
     }
+    ?>
 
-    // Calcula média e situação
-    $media = ($nota1 + $nota2) / 2;
-    $situacao = ($media >= 6) ? "Aprovado ✅" : "Reprovado ❌";
-}
-?>
+    <div class="card">
+        <h2><?= $modo === 'editar' ? 'Editar Cadastro do Aluno' : 'Cadastro do Aluno' ?></h2>
+        <form action="?campanha=volta.as.aulas&versao=1.0&escola=Proz%20educacao&ano_letivo=2025&turno=matutino&professor=Barbara&modo=cadastro" method="POST">
+            <label>Nome:</label>
+            <input type="text" name="nome" required>
 
-<div class="card">
-    <h2>Informações do Aluno</h2>
+            <label>Idade:</label>
+            <input type="number" name="idade" required>
 
-    <form action="?campanha=voltaasaulas&versao=1.0" method="POST">
-        <label>Nome do Aluno:</label>
-        <input type="text" name="nome" required>
+            <label>Turma:</label>
+            <input type="text" name="turma" required>
 
-        <label>Idade:</label>
-        <input type="number" name="idade" required>
+            <label>Nota 1:</label>
+            <input type="number" name="nota1" step="0.01" required>
 
-        <label>Turma:</label>
-        <input type="text" name="turma" required>
+            <label>Nota 2:</label>
+            <input type="number" name="nota2" step="0.01" required>
 
-        <label>Nota 1:</label>
-        <input type="number" name="nota1" step="0.01" required>
-
-        <label>Nota 2:</label>
-        <input type="number" name="nota2" step="0.01" required>
-
-        <button type="submit">Cadastrar</button>
-    </form>
-</div>
-
-<?php if ($foiEnviado): ?>
-    <div class="card" style="margin-top: 30px;">
-        <h2>Resultado</h2>
-        <p><strong>Nome:</strong> <?= $nome ?></p>
-        <p><strong>Idade:</strong> <?= htmlspecialchars($idade) ?></p>
-        <p><strong>Turma:</strong> <?= $turma ?></p>
-        <p><strong>Nota 1:</strong> <?= htmlspecialchars($nota1) ?></p>
-        <p><strong>Nota 2:</strong> <?= htmlspecialchars($nota2) ?></p>
-        <p><strong>Média:</strong> <?= number_format($media, 2, ',', '.') ?></p>
-        <p><strong>Situação:</strong> <?= $situacao ?></p>
-        <hr>
-        <h3>Informações adicionais (GET)</h3>
-        <p>Campanha: <?= $campanha ?></p>
-        <p>Versão: <?= $versao ?></p>
-        <p><a href="index.php">Voltar</a></p>
+            <button type="submit"><?= $modo === 'editar' ? 'Atualizar' : 'Cadastrar' ?></button>
+        </form>
     </div>
-<?php endif; ?>
+
+    <?php if ($foiEnviado): ?>
+        <div class="card" style="text-align: center;">
+            <h2>Resultado</h2>
+            <p><strong>Nome:</strong> <?= $nome ?></p>
+            <p><strong>Idade:</strong> <?= htmlspecialchars($idade) ?></p>
+            <p><strong>Turma:</strong> <?= $turma ?></p>
+            <p><strong>Nota 1:</strong> <?= htmlspecialchars($nota1) ?></p>
+            <p><strong>Nota 2:</strong> <?= htmlspecialchars($nota2) ?></p>
+            <p><strong>Média:</strong> <?= number_format($media, 2, ',', '.') ?></p>
+            <p><strong>Situação:</strong> <?= $situacao ?></p>
+            <hr>
+            <h3>Informações adicionais (GET)</h3>
+            <p>Campanha: <?= $campanha ?></p>
+            <p>Versão: <?= $versao ?></p>
+            <p>Escola: <?= $escola ?></p>
+            <p>Ano Letivo: <?= $ano_letivo ?></p>
+            <p>Turno: <?= $turno ?></p>
+            <p>Professor: <?= $professor ?></p>
+            <p>Modo: <?= $modo ?></p>
+
+            <div style="margin-top: 20px;">
+                <a href="index.php" class="btn-sair">Sair</a>
+            </div>
+        </div>
+    <?php endif; ?>
+</div>
 
 </body>
 </html>
