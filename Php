@@ -1,65 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+
 <?php
 // Mostrar erros (apenas para debug — remova em produção)
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Garante que o método seja POST
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    echo "Erro: formulário não enviado via POST.";
-    exit;
+// Inicializa variáveis
+$nome = $idade = $turma = $nota1 = $nota2 = $media = $situacao = "";
+$campanha = $versao = "—";
+
+// Verifica se o formulário foi enviado
+$foiEnviado = ($_SERVER['REQUEST_METHOD'] === 'POST');
+
+if ($foiEnviado) {
+    // Captura e sanitiza campos de texto
+    $nome  = htmlspecialchars(trim($_POST['nome'] ?? '—'));
+    $turma = htmlspecialchars(trim($_POST['turma'] ?? '—'));
+
+    // Captura e valida números
+    $idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT);
+    $nota1 = filter_input(INPUT_POST, 'nota1', FILTER_VALIDATE_FLOAT);
+    $nota2 = filter_input(INPUT_POST, 'nota2', FILTER_VALIDATE_FLOAT);
+
+    // Validações básicas
+    $erros = [];
+    if ($idade === false || $idade === null) $erros[] = "Idade inválida.";
+    if ($nota1 === false || $nota1 === null) $erros[] = "Nota 1 inválida.";
+    if ($nota2 === false || $nota2 === null) $erros[] = "Nota 2 inválida.";
+
+    // Recebe parâmetros GET (ex: ?campanha=voltaasaulas&versao=1.0)
+    $campanha = htmlspecialchars($_GET['campanha'] ?? '—');
+    $versao   = htmlspecialchars($_GET['versao'] ?? '—');
+
+    // Se houver erros, exibe e encerra
+    if (!empty($erros)) {
+        echo "<h3>Erros encontrados:</h3><ul>";
+        foreach ($erros as $e) echo "<li>" . htmlspecialchars($e) . "</li>";
+        echo "</ul><p><a href='index.php'>Voltar</a></p>";
+        exit;
+    }
+
+    // Calcula média e situação
+    $media = ($nota1 + $nota2) / 2;
+    $situacao = ($media >= 6) ? "Aprovado ✅" : "Reprovado ❌";
 }
-
-// Usar filter_input para evitar undefined index
-$nome  = trim(filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING)) ?: '—';
-$idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT);
-$turma = trim(filter_input(INPUT_POST, 'turma', FILTER_SANITIZE_STRING));
-$nota1 = filter_input(INPUT_POST, 'nota1', FILTER_VALIDATE_FLOAT);
-$nota2 = filter_input(INPUT_POST, 'nota2', FILTER_VALIDATE_FLOAT);
-
-// Validações básicas
-$erros = [];
-if ($idade === false || $idade === null) $erros[] = "Idade inválida.";
-if ($nota1 === false || $nota1 === null) $erros[] = "Nota 1 inválida.";
-if ($nota2 === false || $nota2 === null) $erros[] = "Nota 2 inválida.";
-
-if (!empty($erros)) {
-    echo "<h3>Erros:</h3>";
-    echo "<ul>";
-    foreach ($erros as $e) echo "<li>" . htmlspecialchars($e) . "</li>";
-    echo "</ul>";
-    echo "<a href='cadastro.php'>Voltar</a>";
-    exit;
-}
-
-// Calcula média
-$media = ($nota1 + $nota2) / 2;
-$situacao = ($media >= 6) ? "Aprovado ✅" : "Reprovado ❌";
-
-// Recebe GET de forma segura
-$campanha = filter_input(INPUT_GET, 'campanha', FILTER_SANITIZE_STRING) ?: '—';
-$versao   = filter_input(INPUT_GET, 'versao', FILTER_SANITIZE_STRING) ?: '—';
 ?>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Resultado do Cadastro</title>
-</head>
-<body>
+
+<h2>Cadastro de Aluno</h2>
+
+<form action="?campanha=voltaasaulas&versao=1.0" method="POST">
+    <label>Nome do Aluno:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <label>Idade:</label><br>
+    <input type="number" name="idade" required><br><br>
+
+    <label>Turma:</label><br>
+    <input type="text" name="turma" required><br><br>
+
+    <label>Nota 1:</label><br>
+    <input type="number" name="nota1" step="0.01" required><br><br>
+
+    <label>Nota 2:</label><br>
+    <input type="number" name="nota2" step="0.01" required><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<?php if ($foiEnviado): ?>
+    <hr>
     <h2>Informações do Aluno</h2>
-    <p><strong>Nome:</strong> <?= htmlspecialchars($nome) ?></p>
+    <p><strong>Nome:</strong> <?= $nome ?></p>
     <p><strong>Idade:</strong> <?= htmlspecialchars($idade) ?></p>
-    <p><strong>Turma:</strong> <?= htmlspecialchars($turma) ?></p>
+    <p><strong>Turma:</strong> <?= $turma ?></p>
     <p><strong>Nota 1:</strong> <?= htmlspecialchars($nota1) ?></p>
     <p><strong>Nota 2:</strong> <?= htmlspecialchars($nota2) ?></p>
     <p><strong>Média:</strong> <?= number_format($media, 2, ',', '.') ?></p>
     <p><strong>Situação:</strong> <?= $situacao ?></p>
 
     <h3>Informações adicionais (GET)</h3>
-    <p>Campanha: <?= htmlspecialchars($campanha) ?></p>
-    <p>Versão: <?= htmlspecialchars($versao) ?></p>
+    <p>Campanha: <?= $campanha ?></p>
+    <p>Versão: <?= $versao ?></p>
 
-    <p><a href="cadastro.php">Voltar</a></p>
+    <p><a href="index.php">Voltar</a></p>
+<?php endif; ?>
+
 </body>
 </html>
