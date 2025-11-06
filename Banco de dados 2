@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Login com CPF</title>
+</head>
+<body>
+    <h2>Sistema de Login com CPF</h2>
+
+    <form method="POST">
+        <label>Digite seu CPF (apenas números):</label><br>
+        <input type="text" name="cpf" minlength="11" maxlength="11" placeholder="Com 11 dígitos" required>
+        <br><br>
+        <input type="submit" name="cadastrar" value="Cadastrar CPF">
+    </form>
+
+    <hr>
+
+    <?php
+    // Verifica se o formulário foi enviado via método POST
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+        // Captura o valor digitado no campo de CPF
+        $cpf = $_POST["cpf"];
+
+        // Verifica se o CPF contém apenas números e se possui exatamente 11 dígitos
+        if (!ctype_digit($cpf) || strlen($cpf) != 11) {
+            echo "<p style='color:red;'>⚠️ O CPF deve conter exatamente 11 números.</p>";
+            exit;
+        }
+
+        // Faz a conexão com o banco de dados MySQL
+        // Parâmetros: servidor, usuário, senha, nome do banco e porta
+        $conn = new mysqli("localhost", "root", "", "login_usuarios", 3306);
+
+        // Verifica se houve erro na conexão
+        if ($conn->connect_error) {
+            die("<p style='color:red;'>Erro ao conectar: " . $conn->connect_error . "</p>");
+        }
+
+        // SE O USUÁRIO CLICOU EM "CADASTRAR"
+        if (isset($_POST["cadastrar"])) {
+            // Cria o comando SQL para inserir o CPF na tabela cliente
+            $sql = "INSERT INTO cliente (cpf) VALUES ('$cpf')";
+
+            // Executa o comando e verifica se deu certo
+            if ($conn->query($sql) === TRUE) {
+                echo "<p style='color:green;'>✅ CPF cadastrado com sucesso!</p>";
+            } else {
+                // Caso o CPF já exista (chave única repetida), exibe aviso
+                echo "<p style='color:orange;'>⚠️ CPF já cadastrado ou erro ao inserir.</p>";
+            }
+        }
+
+        // Fecha a conexão com o banco
+        $conn->close();
+    }
+    ?>
+</body>
+</html>
