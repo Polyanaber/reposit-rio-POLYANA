@@ -1,0 +1,9 @@
+-- Inserir cliente válido
+INSERT INTO cliente (nome, cpf, email, telefone)
+VALUES ('João da Silva', '12345678901', 'joao@email.com', '31999999999');
+
+-- Ver tabela normal
+SELECT * FROM cliente;
+
+-- Ver CPF formatado
+SELECT * FROM vw_cliente_formatado;
