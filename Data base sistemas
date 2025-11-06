@@ -1,30 +1,20 @@
--- Cria o banco de dados
-CREATE DATABASE sistema;
-USE sistema;
+CREATE DATABASE LOGIN_USUARIOS;
+USE LOGIN_USUARIOS;
 
--- Cria a tabela de clientes
-CREATE TABLE cliente (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE LOGIN(
     nome VARCHAR(100) NOT NULL,
-    cpf CHAR(11) NOT NULL UNIQUE,
+    cpf CHAR(11) PRIMARY KEY,
     email VARCHAR(100),
     telefone VARCHAR(20),
     data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT chk_cpf_format CHECK (cpf REGEXP '^[0-9]{11}$')
 );
 
--- Cria uma view para mostrar o CPF formatado (000.000.000-00)
-CREATE VIEW vw_cliente_formatado AS
-SELECT
-    id,
-    nome,
-    email,
-    telefone,
-    CONCAT(
-        SUBSTRING(cpf, 1, 3), '.',
-        SUBSTRING(cpf, 4, 3), '.',
-        SUBSTRING(cpf, 7, 3), '-',
-        SUBSTRING(cpf, 10, 2)
-    ) AS cpf_formatado,
-    data_cadastro
-FROM cliente;
+INSERT INTO LOGIN (nome, cpf, email, telefone)
+VALUES ('João da Silva', '12345678901', 'joao@email.com', '31999999999');
+
+-- Ver tabela normal
+SELECT * FROM LOGIN;
+
+-- Ver CPF formatado
+SELECT * FROM vw_LOGIN_formatado;
